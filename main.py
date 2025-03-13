@@ -16,7 +16,7 @@ AUTH_TOKEN=os.getenv("DISCORD_TOKEN")
 #creating a bot instance
 intents=discord.Intents.default()
 intents.message_content=True
-
+intents.members=True
 #bot command for audio 
 bot=commands.Bot(command_prefix="!",intents=intents)
 
@@ -53,7 +53,7 @@ async def on_message(message:discord.Message)->str:
 async def on_member_join(member:discord.Member)->str:
     channel=discord.utils.get(member.guild.text_channels,name="general")
     if channel:
-        welcome_message = f"🎉 Welcome to the server, {member.mention}! {random.choice(hello_responses)}"
+        welcome_message = f"🎉 Ayiss Kamina, {member.mention}!"
         await channel.send(welcome_message)
 
 
