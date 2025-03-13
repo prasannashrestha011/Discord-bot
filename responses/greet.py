@@ -1,12 +1,12 @@
 hello_responses = [
     "👋 What's up",
-    "😊 Hello my friend",
-    "😃 Hey there!",
+    "😊 Kina dhila aaysi sale",
+    "😃 Fees tires mugi",
     "🎉 Greetings!",
     "🤗 Hi, how are you?",
     "🖖 Yo!",
     "😁 Good to see you!",
     "🤠 Howdy!",
-    "👀 Hey, what's new?",
-    "🙌 Salutations!"
+    "👀 ",
+    "🙌 K xa kamina!"
 ]
